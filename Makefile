@@ -91,6 +91,13 @@ SRCS = src/write/ft_putchar.c \
 	  src/lst/ft_lstmap.c \
 	  \
 	  src/utils/ft_bzero.c \
+	  \
+	  src/maths/add.c \
+	  src/maths/dec.c \
+	  src/maths/divide.c \
+	  src/maths/abs.c \
+	  \
+	  src/map/map.c \
 
 OBJ = ft_putchar.o \
 	  ft_putchar_fd.o \
@@ -152,6 +159,11 @@ OBJ = ft_putchar.o \
 	  ft_lstiter.o \
 	  ft_lstmap.o \
 	  ft_bzero.o \
+	  add.o \
+	  dec.o \
+	  divide.o \
+	  abs.c \
+	  map.c \
 
 SRC = $(OBJ:.c=.c)
 OBJS = $(SRCS:.c=.o)

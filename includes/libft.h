@@ -89,4 +89,9 @@ void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
 
+int					add(int a, int b);
+int					dec(int a);
+int					divide(int a, int b);
+int					ft_abs(int nb);
+
 #endif
